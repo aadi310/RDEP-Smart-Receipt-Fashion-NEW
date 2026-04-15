@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Textarea } from "@/components/ui/textarea"
 import {
   ChevronRight,
+  Tag,
   Download,
   ExternalLink,
   FileText,
@@ -714,12 +715,10 @@ India
 
 </div>
 
-
 <div class="customer-section">
 <h3>Customer: ${customerName}</h3>
 <p>Thank you for shopping with us!</p>
 </div>
-
 
 <table class="items-table">
 
@@ -747,8 +746,8 @@ Size: M
 </td>
 <td>1</td>
 <td>Navy Blue / M</td>
-<td>₹1,899</td>
-<td><strong>₹1,899</strong></td>
+<td>₹1,899.00</td>
+<td><strong>₹1,899.00</strong></td>
 </tr>
 
 <tr>
@@ -763,8 +762,8 @@ Size: 32
 </td>
 <td>1</td>
 <td>Indigo / 32</td>
-<td>₹2,999</td>
-<td><strong>₹2,999</strong></td>
+<td>₹2,999.00</td>
+<td><strong>₹2,999.00</strong></td>
 </tr>
 
 <tr>
@@ -779,13 +778,12 @@ Size: 9
 </td>
 <td>1</td>
 <td>White / 9</td>
-<td>₹3,499</td>
-<td><strong>₹3,499</strong></td>
+<td>₹3,499.00</td>
+<td><strong>₹3,499.00</strong></td>
 </tr>
 
 </tbody>
 </table>
-
 
 <div class="totals-section">
 
@@ -794,13 +792,12 @@ Items Purchased: 3
 </div>
 
 <div class="totals-table">
-<div>Subtotal: <strong>₹7,997</strong></div>
+<div>Subtotal: <strong>₹8,397</strong></div>
 <div>GST: <strong>₹400</strong></div>
-<div class="net-total">Total Paid: <strong>₹8,397</strong></div>
+<div class="net-total">Total Paid: <strong>₹8,797</strong></div>
 </div>
 
 </div>
-
 
 <div class="footer">
 
@@ -815,13 +812,13 @@ Powered by RDEP Smart Receipts
 
 </body>
 </html>
-    `
+`
 
     const blob = new Blob([receiptContent], { type: "text/html" })
     const url = URL.createObjectURL(blob)
     const link = document.createElement("a")
     link.href = url
-    link.download = "Croma_Receipt_SK251107001.html"
+    link.download = "RDEP_Receipt_SK251107001.html"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
