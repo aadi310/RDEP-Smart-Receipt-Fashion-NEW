@@ -243,168 +243,176 @@ export default function Home() {
 const receipts = {
 
   current: {
-    id: "CRBLR7891XQ12",
+    id: "FSBLR4821MK19",
     date: "05-03-2026",
     time: "19:22:18",
-    associate: "Rahul Kumar",
+    associate: "Priya Singh",
     branch: "Brigade Road",
 
     items: [
       {
         id: 0,
-        name: "LG 1.5 Ton Dual Inverter Split AC",
-        variant: "5 Star 2026 Model",
-        description: "AI Convertible 6-in-1 cooling",
-        price: 46990,
+        name: "Slim Fit Cotton Shirt",
+        variant: "Size M • Navy Blue",
+        description: "100% cotton casual shirt",
+        price: 1899,
         quantity: 1,
-        category: "Air Conditioners",
-        baseAmount: 39822,
-        tax: 7168,
-        itemCode: "LGAC15INV26",
-        serialNumber: "LGAC15X9921",
-        warranty: "1 Year Product / 10 Year Compressor",
-
-        installationAvailable: true,
-        installationStatus: "Scheduled",
-        installationScheduledDate: "07 Mar 2026"
+        category: "Men's Wear",
+        baseAmount: 1809,
+        tax: 90,
+        itemCode: "SHRTSLIMNVY",
+        styleCode: "FS-SH-2219",
+        size: "M",
+        color: "Navy Blue"
       },
 
       {
         id: 1,
-        name: "Apple AirPods (3rd Generation)",
-        variant: "Wireless Charging Case",
-        description: "Spatial audio with dynamic head tracking",
-        price: 19900,
+        name: "Mid Rise Skinny Jeans",
+        variant: "Size 32 • Dark Indigo",
+        description: "Stretch denim with tapered fit",
+        price: 2999,
         quantity: 1,
-        category: "Audio",
-        baseAmount: 16864,
-        tax: 3036,
-        itemCode: "AIRPODS3",
-        serialNumber: "APD3X77P21",
-        warranty: "1 Year Apple Warranty"
+        category: "Men's Wear",
+        baseAmount: 2856,
+        tax: 143,
+        itemCode: "JEANS32IND",
+        styleCode: "FS-JE-3312",
+        size: "32",
+        color: "Dark Indigo"
+      },
+
+      {
+        id: 2,
+        name: "Classic White Sneakers",
+        variant: "Size 9",
+        description: "Lightweight everyday sneakers",
+        price: 3499,
+        quantity: 1,
+        category: "Footwear",
+        baseAmount: 3332,
+        tax: 167,
+        itemCode: "SNKRWHT09",
+        styleCode: "FS-FW-5510",
+        size: "9",
+        color: "White"
       }
     ],
 
-    subtotal: 56686,
-    tax: 10204,
-    total: 66890
+    subtotal: 7997,
+    tax: 400,
+    total: 8397
   },
 
 
   hist1: {
-    id: "CRBLR6719YT92",
+    id: "FSBLR3157PD42",
     date: "20-01-2026",
     time: "14:22:18",
-    associate: "Anita Sharma",
+    associate: "Rohit Verma",
     branch: "Indiranagar",
 
     items: [
       {
         id: 0,
-        name: "Samsung 55\" Crystal 4K UHD Smart TV",
-        variant: "CU7700 55 inch",
-        description: "Crystal Processor 4K with HDR10+",
-        price: 54990,
+        name: "Floral Print Summer Dress",
+        variant: "Size S • Peach",
+        description: "Lightweight rayon summer dress",
+        price: 2599,
         quantity: 1,
-        category: "Televisions",
-        baseAmount: 46517,
-        tax: 8473,
-        itemCode: "SAM55CU7700",
-        serialNumber: "SAMTV55CU7721",
-        warranty: "1 Year Samsung Warranty",
-
-        installationAvailable: true,
-        installationStatus: "Completed",
-        installationScheduledDate: "22 Jan 2026"
+        category: "Women's Wear",
+        baseAmount: 2475,
+        tax: 124,
+        itemCode: "DRSSFLRLSP",
+        styleCode: "FS-WD-8821",
+        size: "S",
+        color: "Peach"
       },
 
       {
         id: 1,
-        name: "Amazon Fire TV Stick 4K",
-        variant: "4K Streaming",
-        description: "Dolby Vision with Alexa Voice Remote",
-        price: 5999,
+        name: "Women's Block Heel Sandals",
+        variant: "Size 6 • Tan",
+        description: "Comfort block heel sandals",
+        price: 1999,
         quantity: 1,
-        category: "Streaming Devices",
-        baseAmount: 5084,
-        tax: 915,
-        itemCode: "AMZFTV4K",
-        serialNumber: "AMZ4KTV881",
-        warranty: "1 Year Warranty"
+        category: "Footwear",
+        baseAmount: 1904,
+        tax: 95,
+        itemCode: "SNDTAN06",
+        styleCode: "FS-FW-6642",
+        size: "6",
+        color: "Tan"
       }
     ],
 
-    subtotal: 51601,
-    tax: 9388,
-    total: 60989
+    subtotal: 4379,
+    tax: 219,
+    total: 4598
   },
 
 
   hist2: {
-    id: "CRBLR5590LP33",
+    id: "FSBLR2289AL17",
     date: "15-12-2025",
     time: "12:45:33",
-    associate: "Sanjay Reddy",
+    associate: "Sneha Kapoor",
     branch: "Koramangala",
 
     items: [
       {
         id: 0,
-        name: "Kent RO Water Purifier",
-        variant: "Grand Plus RO + UV",
-        description: "RO+UV+UF purification with TDS control",
-        price: 18990,
+        name: "Men's Puffer Jacket",
+        variant: "Size L • Olive Green",
+        description: "Lightweight winter jacket",
+        price: 4999,
         quantity: 1,
-        category: "Water Purifiers",
-        baseAmount: 16093,
-        tax: 2897,
-        itemCode: "KENTGRANDPLUS",
-        serialNumber: "KENTRO8891",
-        warranty: "1 Year Kent Warranty",
-
-        installationAvailable: true,
-        installationStatus: "Completed",
-        installationScheduledDate: "16 Dec 2025"
+        category: "Men's Wear",
+        baseAmount: 4761,
+        tax: 238,
+        itemCode: "JCKTPUFFOLV",
+        styleCode: "FS-JK-1190",
+        size: "L",
+        color: "Olive Green"
       },
 
       {
         id: 1,
-        name: "Logitech MX Master 3S Mouse",
-        variant: "Wireless Bluetooth",
-        description: "Advanced productivity mouse",
-        price: 9995,
+        name: "Leather Wallet",
+        variant: "Brown",
+        description: "Genuine leather bi-fold wallet",
+        price: 1299,
         quantity: 1,
-        category: "Computer Accessories",
-        baseAmount: 8461,
-        tax: 1534,
-        itemCode: "LOGMXM3S",
-        serialNumber: "LOGM3S9901",
-        warranty: "1 Year Logitech Warranty"
+        category: "Accessories",
+        baseAmount: 1237,
+        tax: 62,
+        itemCode: "WLTLTHBRN",
+        styleCode: "FS-AC-3301",
+        color: "Brown"
       }
     ],
 
-    subtotal: 24554,
-    tax: 4431,
-    total: 28985
+    subtotal: 5998,
+    tax: 300,
+    total: 6298
   }
-
 };
+
+const currentReceipt = receipts[currentReceiptId]
+
+const totalSlides = 2
+
+const transactionHistory = [
+  {
+    id: "current",
+    date: "05-03-2026",
+    branch: "Fashion Store",
+    amount: currentReceiptId === "current" ? receipts.current.subtotal + receipts.current.tax : 8397.00,
+  },
+  { id: "hist1", date: "20-01-2026", branch: "Fashion Store", amount: 4598.00 },
+  { id: "hist2", date: "15-12-2025", branch: "Fashion Store", amount: 6298.00 },
+]
   
-  const currentReceipt = receipts[currentReceiptId]
-
-  const totalSlides = 2
-
-  const transactionHistory = [
-    {
-      id: "current",
-      date: "05-03-2026",
-      branch: "Croma",
-      amount: currentReceiptId === "current" ? receipts.current.subtotal + receipts.current.tax : 66890.00,
-    },
-    { id: "hist1", date: "20-01-2026", branch: "Croma", amount: 60989.00 },
-    { id: "hist2", date: "15-12-2025", branch: "Croma", amount: 28985.00 },
-  ]
-
   const toggleProductExpansion = (productId: number) => {
     setExpandedProducts((prev) =>
       prev.includes(productId) ? prev.filter((id) => id !== productId) : [...prev, productId],
@@ -824,7 +832,7 @@ Powered by RDEP
       >
         <div className="flex flex-col w-full gap-3 pb-4 px-3">
 
-         {/* Top Section */}
+        {/* Top Section */}
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 overflow-hidden">
 
   {/* Header */}
@@ -834,8 +842,8 @@ Powered by RDEP
 
       {/* Logo */}
       <img
-        src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/CMS/Category%20icon/Final%20icon/Croma_Logo_acrkvn.svg"
-        alt="Croma"
+        src="/images/design-mode/RDEP-logo.png"
+        alt="RDEP"
         className="h-10 w-auto"
       />
 
@@ -881,7 +889,7 @@ Powered by RDEP
 
     </div>
 
-  </div>  {/* ✅ THIS WAS MISSING */}
+  </div>
 
 
   {/* Receipt Metadata */}
@@ -925,7 +933,7 @@ Powered by RDEP
         </span>
 
         <span className="text-sm font-semibold text-right">
-          Croma {currentReceipt.branch}
+          {currentReceipt.branch}
         </span>
 
       </div>
