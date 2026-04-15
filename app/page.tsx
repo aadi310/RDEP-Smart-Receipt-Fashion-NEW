@@ -2597,7 +2597,7 @@ className="w-full flex items-center p-3 bg-gray-50 border border-gray-200 rounde
 <div className="flex-grow text-left">
 
 <div className="text-sm font-semibold text-gray-900">
-Store Purchase
+RDEP Fashion
 </div>
 
 <div className="text-[11px] text-gray-500">
