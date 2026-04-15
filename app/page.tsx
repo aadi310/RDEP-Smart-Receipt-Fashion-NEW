@@ -832,11 +832,11 @@ Powered by RDEP
       >
         <div className="flex flex-col w-full gap-3 pb-4 px-3">
 
-        {/* Top Section */}
+{/* Top Section */}
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 overflow-hidden">
 
   {/* Header */}
-  <div className="bg-black px-5 pt-5 pb-6 text-white">
+  <div className="bg-[#2c20e0] px-5 pt-5 pb-6 text-white">
 
     <div className="flex items-start justify-between">
 
@@ -866,14 +866,14 @@ Powered by RDEP
         Thank you {customerName}
       </div>
 
-      <div className="text-sm text-gray-300">
+      <div className="text-sm text-blue-100">
         We hope to see you again soon!
       </div>
     </div>
 
 
     {/* Amount Card */}
-    <div className="mt-4 bg-gradient-to-r from-[#2CBC9C] to-[#46A9A3] rounded-xl p-4 flex justify-between items-center">
+    <div className="mt-4 bg-gradient-to-r from-[#1e0ccf] to-[#4a40f5] rounded-xl p-4 flex justify-between items-center">
 
       <div>
         <div className="text-xs text-white/90">
@@ -895,11 +895,10 @@ Powered by RDEP
   {/* Receipt Metadata */}
   <div className="p-4 bg-white">
 
-    <div className="bg-[#E8F7F4] rounded-xl border border-[#CFEDEA] p-3 space-y-2">
+    <div className="bg-[#EEF0FF] rounded-xl border border-[#D7DAFF] p-3 space-y-2">
 
       {/* Receipt ID */}
       <div className="flex justify-between items-center">
-
         <span className="text-xs text-gray-600">
           Receipt ID
         </span>
@@ -907,13 +906,11 @@ Powered by RDEP
         <span className="text-sm font-semibold tracking-wide text-right">
           {currentReceipt.id}
         </span>
-
       </div>
 
 
       {/* Date & Time */}
       <div className="flex justify-between items-center">
-
         <span className="text-xs text-gray-600">
           Date & Time
         </span>
@@ -921,13 +918,11 @@ Powered by RDEP
         <span className="text-sm font-semibold text-right">
           {currentReceipt.date} {currentReceipt.time}
         </span>
-
       </div>
 
 
       {/* Store */}
       <div className="flex justify-between items-center">
-
         <span className="text-xs text-gray-600">
           Store
         </span>
@@ -935,7 +930,6 @@ Powered by RDEP
         <span className="text-sm font-semibold text-right">
           {currentReceipt.branch}
         </span>
-
       </div>
 
     </div>
