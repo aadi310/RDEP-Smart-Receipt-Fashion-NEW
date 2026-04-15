@@ -503,7 +503,7 @@ const transactionHistory = [
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Croma Digital Receipt</title>
+<title>Digital Receipt</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -533,12 +533,12 @@ justify-content:space-between;
 align-items:flex-start;
 margin-bottom:28px;
 padding-bottom:16px;
-border-bottom:3px solid #2CBC9C;
+border-bottom:3px solid #1e0ccf;
 }
 
 .company-info h1{
 font-size:30px;
-color:#2CBC9C;
+color:#1e0ccf;
 font-weight:700;
 margin-bottom:4px;
 }
@@ -560,22 +560,22 @@ margin-bottom:4px;
 
 .bill-id{
 font-weight:600;
-color:#2CBC9C;
+color:#1e0ccf;
 }
 
 /* Customer */
 
 .customer-section{
-background:#F1FBF8;
+background:#F5F6FF;
 padding:14px;
-border-left:4px solid #2CBC9C;
+border-left:4px solid #1e0ccf;
 border-radius:0 8px 8px 0;
 margin-bottom:22px;
 }
 
 .customer-section h3{
 font-size:15px;
-color:#2CBC9C;
+color:#1e0ccf;
 font-weight:600;
 margin-bottom:2px;
 }
@@ -594,7 +594,7 @@ margin-bottom:24px;
 }
 
 .items-table th{
-background:#2CBC9C;
+background:#1e0ccf;
 color:white;
 padding:10px 8px;
 text-align:left;
@@ -622,7 +622,7 @@ color:#666;
 
 .item-specs{
 font-size:10px;
-color:#2CBC9C;
+color:#1e0ccf;
 margin-top:4px;
 font-weight:600;
 }
@@ -652,8 +652,8 @@ font-size:13px;
 .net-total{
 font-size:18px;
 font-weight:700;
-color:#2CBC9C;
-border-top:2px solid #2CBC9C;
+color:#1e0ccf;
+border-top:2px solid #1e0ccf;
 padding-top:6px;
 margin-top:6px;
 }
@@ -670,7 +670,7 @@ color:#555;
 }
 
 .footer strong{
-color:#2CBC9C;
+color:#1e0ccf;
 }
 
 .powered{
@@ -696,27 +696,30 @@ padding:0;
 <div class="receipt-header">
 
 <div class="company-info">
-<h1>Croma</h1>
+<h1>Fashion Retail Store</h1>
 <p>
-<strong>Croma Retail Store</strong><br>
-Brigade Road<br>
+<strong>Store Location</strong><br>
+42, Brigade Road<br>
+Ashok Nagar<br>
 Bengaluru, Karnataka 560001<br>
 India
 </p>
 </div>
 
 <div class="bill-info">
-<div><strong>Receipt ID:</strong> <span class="bill-id">CRBLR7891XQ12</span></div>
+<div><strong>Receipt ID:</strong> <span class="bill-id">FSBLR4821MK19</span></div>
 <div><strong>Date:</strong> 05-03-2026 19:22</div>
-<div><strong>Store Associate:</strong> Rahul Kumar</div>
+<div><strong>Store Associate:</strong> Priya Singh</div>
 </div>
 
 </div>
+
 
 <div class="customer-section">
 <h3>Customer: ${customerName}</h3>
-<p>Thank you for shopping at Croma!</p>
+<p>Thank you for shopping with us!</p>
 </div>
+
 
 <table class="items-table">
 
@@ -734,60 +737,78 @@ India
 
 <tr>
 <td>
-<div class="item-name">LG 1.5 Ton Dual Inverter Split AC</div>
-<div class="item-desc">AI Convertible 6-in-1 cooling</div>
+<div class="item-name">Slim Fit Cotton Shirt</div>
+<div class="item-desc">100% cotton casual shirt</div>
 <div class="item-specs">
-Product Code: LGAC15INV26<br>
-Serial: LGAC15X9921<br>
-Warranty: 1 Year Product / 10 Year Compressor
+Style Code: FS-SH-2219<br>
+Color: Navy Blue<br>
+Size: M
 </div>
 </td>
 <td>1</td>
-<td>5 Star 2026 Model</td>
-<td>₹46,990</td>
-<td><strong>₹46,990</strong></td>
+<td>Navy Blue / M</td>
+<td>₹1,899</td>
+<td><strong>₹1,899</strong></td>
 </tr>
 
 <tr>
 <td>
-<div class="item-name">Apple AirPods (3rd Generation)</div>
-<div class="item-desc">Spatial audio with dynamic head tracking</div>
+<div class="item-name">Mid Rise Skinny Jeans</div>
+<div class="item-desc">Stretch denim with tapered fit</div>
 <div class="item-specs">
-Product Code: AIRPODS3<br>
-Serial: APD3X77P21<br>
-Warranty: 1 Year Apple Warranty
+Style Code: FS-JE-3312<br>
+Color: Dark Indigo<br>
+Size: 32
 </div>
 </td>
 <td>1</td>
-<td>Wireless Charging Case</td>
-<td>₹19,900</td>
-<td><strong>₹19,900</strong></td>
+<td>Indigo / 32</td>
+<td>₹2,999</td>
+<td><strong>₹2,999</strong></td>
+</tr>
+
+<tr>
+<td>
+<div class="item-name">Classic White Sneakers</div>
+<div class="item-desc">Lightweight everyday sneakers</div>
+<div class="item-specs">
+Style Code: FS-FW-5510<br>
+Color: White<br>
+Size: 9
+</div>
+</td>
+<td>1</td>
+<td>White / 9</td>
+<td>₹3,499</td>
+<td><strong>₹3,499</strong></td>
 </tr>
 
 </tbody>
 </table>
 
+
 <div class="totals-section">
 
 <div class="items-count">
-Items Purchased: 2
+Items Purchased: 3
 </div>
 
 <div class="totals-table">
-<div>Subtotal: <strong>₹56,686</strong></div>
-<div>GST: <strong>₹10,204</strong></div>
-<div class="net-total">Total Paid: <strong>₹66,890</strong></div>
+<div>Subtotal: <strong>₹7,997</strong></div>
+<div>GST: <strong>₹400</strong></div>
+<div class="net-total">Total Paid: <strong>₹8,397</strong></div>
 </div>
 
 </div>
+
 
 <div class="footer">
 
-<p><strong>Thank you for shopping with Croma!</strong></p>
-<p>Visit www.croma.com for exclusive offers and services.</p>
+<p><strong>Thank you for shopping with us!</strong></p>
+<p>Visit <strong>www.rdep.io</strong> for exclusive offers and updates.</p>
 
 <div class="powered">
-Powered by RDEP
+Powered by RDEP Smart Receipts
 </div>
 
 </div>
@@ -1203,7 +1224,7 @@ Card Payment
 
     <div className="flex items-center">
 
-      <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
+      <div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
         <Truck className="h-4 w-4 text-white" />
       </div>
 
@@ -1220,7 +1241,7 @@ Card Payment
     </div>
 
     {/* Status Badge */}
-    <div className="text-[10px] font-semibold bg-[#F1FBF8] text-[#2CBC9C] px-2 py-1 rounded-full">
+    <div className="text-[10px] font-semibold bg-[#EEF0FF] text-[#1e0ccf] px-2 py-1 rounded-full">
       In Transit
     </div>
 
@@ -1233,7 +1254,7 @@ Card Payment
     {/* Confirmed */}
     <div className="flex flex-col items-center text-center flex-1">
 
-      <div className="w-8 h-8 rounded-full bg-[#2CBC9C] text-white flex items-center justify-center">
+      <div className="w-8 h-8 rounded-full bg-[#1e0ccf] text-white flex items-center justify-center">
         <CheckCircle2 className="h-4 w-4"/>
       </div>
 
@@ -1244,17 +1265,17 @@ Card Payment
     </div>
 
 
-    <div className="flex-1 h-[3px] bg-[#2CBC9C]"></div>
+    <div className="flex-1 h-[3px] bg-[#1e0ccf]"></div>
 
 
     {/* In Transit */}
     <div className="flex flex-col items-center text-center flex-1">
 
-      <div className="w-8 h-8 rounded-full border-2 border-[#2CBC9C] text-[#2CBC9C] flex items-center justify-center">
+      <div className="w-8 h-8 rounded-full border-2 border-[#1e0ccf] text-[#1e0ccf] flex items-center justify-center">
         <Truck className="h-4 w-4"/>
       </div>
 
-      <span className="text-[10px] font-medium text-[#2CBC9C] mt-1">
+      <span className="text-[10px] font-medium text-[#1e0ccf] mt-1">
         In Transit
       </span>
 
@@ -1281,7 +1302,7 @@ Card Payment
 
 
   {/* Delivery Info */}
-  <div className="bg-gray-50 rounded-xl border border-gray-200 p-3 text-center mb-3">
+  <div className="bg-[#F5F6FF] rounded-xl border border-[#E2E6FF] p-3 text-center mb-3">
 
     <p className="text-[11px] text-gray-600">
       Estimated Delivery
@@ -1296,11 +1317,11 @@ Card Payment
 
   {/* Track Button */}
   <a
-    href="https://www.croma.com"
+    href="https://www.rdep.io"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <button className="w-full bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 transition active:scale-[0.98]">
+    <button className="w-full bg-[#1e0ccf] text-white h-10 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 transition active:scale-[0.98]">
 
       Track Order
 
@@ -1317,12 +1338,12 @@ Card Payment
 
 {feedbackSubmitted ? (
 
-<div className="text-center py-6 bg-[#F1FBF8] rounded-xl border border-[#D6F2EC]">
+<div className="text-center py-6 bg-[#F5F6FF] rounded-xl border border-[#E2E6FF]">
 
-  <div className="w-12 h-12 bg-[#D6F2EC] rounded-full flex items-center justify-center mx-auto mb-3">
+  <div className="w-12 h-12 bg-[#E2E6FF] rounded-full flex items-center justify-center mx-auto mb-3">
 
     <svg
-      className="w-6 h-6 text-[#2CBC9C]"
+      className="w-6 h-6 text-[#1e0ccf]"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
@@ -1337,7 +1358,7 @@ Card Payment
   </div>
 
   <div className="text-xs text-gray-600">
-    Your feedback helps us improve the Croma shopping experience.
+    Your feedback helps improve the shopping experience.
   </div>
 
 </div>
@@ -1349,7 +1370,7 @@ Card Payment
   {/* Header */}
   <div className="flex items-center">
 
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
+    <div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
       <Star className="h-4 w-4 text-white" />
     </div>
 
@@ -1377,7 +1398,7 @@ Card Payment
         <Star
           className={`h-8 w-8 ${
             star <= rating
-              ? "fill-[#2CBC9C] text-[#2CBC9C]"
+              ? "fill-[#1e0ccf] text-[#1e0ccf]"
               : "text-gray-300"
           }`}
         />
@@ -1403,19 +1424,19 @@ Card Payment
         {(rating >= 4
           ? [
               "Great product quality",
-              "Helpful staff",
+              "Helpful store staff",
               "Smooth checkout",
-              "Fast billing",
-              "Good value",
-              "Easy installation",
+              "Good fit",
+              "Great style options",
+              "Good value for money",
             ]
           : [
-              "Long checkout time",
-              "Product not available",
-              "Staff assistance needed",
+              "Long billing time",
+              "Size not available",
+              "Needed staff assistance",
               "Price higher than expected",
-              "Installation delay",
-              "Packaging issue",
+              "Limited collection",
+              "Product quality concern",
             ]
         ).map((item) => (
 
@@ -1430,7 +1451,7 @@ Card Payment
             }
             className={`text-[11px] px-3 py-1.5 rounded-full border transition ${
               selectedTags.includes(item)
-                ? "bg-[#2CBC9C] text-white border-[#2CBC9C]"
+                ? "bg-[#1e0ccf] text-white border-[#1e0ccf]"
                 : "border-gray-200 bg-gray-50"
             }`}
           >
@@ -1455,8 +1476,8 @@ Card Payment
 
     <textarea
       rows={3}
-      placeholder="Tell us about your Croma shopping experience"
-      className="w-full p-3 text-xs border border-gray-200 rounded-xl focus:ring-1 focus:ring-[#2CBC9C] focus:border-[#2CBC9C] outline-none resize-none"
+      placeholder="Tell us about your shopping experience"
+      className="w-full p-3 text-xs border border-gray-200 rounded-xl focus:ring-1 focus:ring-[#1e0ccf] focus:border-[#1e0ccf] outline-none resize-none"
       value={feedbackText}
       onChange={(e) => setFeedbackText(e.target.value)}
     />
@@ -1466,7 +1487,7 @@ Card Payment
 
   {/* Submit Button */}
   <button
-    className="w-full bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
+    className="w-full bg-[#1e0ccf] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
     onClick={handleFeedbackSubmit}
     disabled={!rating}
   >
@@ -1475,11 +1496,10 @@ Card Payment
 
 
   <p className="text-[10px] text-center text-gray-400">
-    Your feedback helps us improve future shopping experiences.
+    Your feedback helps improve future shopping experiences.
   </p>
 
 </div>
-
 
 )}
 
@@ -1495,24 +1515,23 @@ setApi={setPromoApi}
 opts={{
 loop: true,
 }}
-
 >
 
 <CarouselContent>
 
-  {/* Banner 1 */}
+  {/* Banner 1 - New Collection */}
   <CarouselItem>
 
     <a
-      href="https://www.croma.com/lp-flash-sale"
+      href="https://www.rdep.io"
       target="_blank"
       rel="noopener noreferrer"
       className="block w-full"
     >
 
       <Image
-        src="/images/design-mode/Croma_Banner_1.png"
-        alt="Croma Flash Sale"
+        src="/images/design-mode/Banner-1.png"
+        alt="New Collection Launch"
         width={1000}
         height={600}
         className="w-full h-auto object-contain"
@@ -1524,42 +1543,19 @@ loop: true,
   </CarouselItem>
 
 
-  {/* Banner 2 */}
+  {/* Banner 2 - Street Fashion Sale */}
   <CarouselItem>
 
     <a
-      href="https://www.croma.com/lp-weekly-circuit"
+      href="https://www.rdep.io"
       target="_blank"
       rel="noopener noreferrer"
       className="block w-full"
     >
 
       <Image
-        src="/images/design-mode/Croma_Banner_2.png"
-        alt="Croma Weekly Circuit"
-        width={1000}
-        height={600}
-        className="w-full h-auto object-contain"
-      />
-
-    </a>
-
-  </CarouselItem>
-
-
-  {/* Banner 3 */}
-  <CarouselItem>
-
-    <a
-      href="https://www.croma.com/campaign/best-deals-on-acs/c/5842?q=%3Arelevance%3Alower_categories%3A867"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block w-full"
-    >
-
-      <Image
-        src="/images/design-mode/Croma_Banner_3.png"
-        alt="Croma AC Deals"
+        src="/images/design-mode/Banner-2.png"
+        alt="Street Fashion Sale"
         width={1000}
         height={600}
         className="w-full h-auto object-contain"
@@ -1575,14 +1571,14 @@ loop: true,
 {/* Pagination Dots */}
 <div className="absolute bottom-3 left-0 right-0 flex justify-center gap-1.5 z-10">
 
-  {[0, 1, 2].map((index) => (
+  {[0, 1].map((index) => (
 
     <button
       key={index}
       onClick={() => promoApi?.scrollTo(index)}
       className={`h-1.5 rounded-full transition-all duration-300 ${
         currentSlide === index
-          ? "w-5 bg-[#2CBC9C]"
+          ? "w-5 bg-[#1e0ccf]"
           : "w-1.5 bg-white/70"
       }`}
     />
@@ -1591,21 +1587,19 @@ loop: true,
 
 </div>
 
-
-  </Carousel>
+</Carousel>
 
 </div>
-
-          {/* Returns & Exchange */}
+      {/* Returns & Exchange */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
 {returnSubmitted ? (
 
-<div className="text-center py-4 bg-green-50 rounded-xl border border-green-100">
+<div className="text-center py-4 bg-[#F5F6FF] rounded-xl border border-[#E2E6FF]">
 
-<div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
-<CheckCircle2 className="w-6 h-6 text-green-600" />
+<div className="w-12 h-12 bg-[#E2E6FF] rounded-full flex items-center justify-center mx-auto mb-3">
+<CheckCircle2 className="w-6 h-6 text-[#1e0ccf]" />
 </div>
 
 <div className="text-sm font-semibold text-gray-900">
@@ -1616,7 +1610,7 @@ Request Submitted
 Request ID: <span className="font-semibold">{returnRequestId}</span>
 </div>
 
-<div className="text-xs text-green-700 mt-1">
+<div className="text-xs text-[#1e0ccf] mt-1">
 Our support team will contact you shortly.
 </div>
 
@@ -1632,7 +1626,7 @@ Our support team will contact you shortly.
 
 <div className="flex items-center">
 
-<div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
+<div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
 <RotateCcw className="h-4 w-4 text-white" />
 </div>
 
@@ -1650,7 +1644,7 @@ Request a return or exchange for your product
 
 <button
 onClick={() => setShowReturnPanel(!showReturnPanel)}
-className="text-xs font-medium text-[#2CBC9C]"
+className="text-xs font-medium text-[#1e0ccf]"
 >
 {showReturnPanel ? "Close" : "Start"}
 </button>
@@ -1683,7 +1677,7 @@ setReturnReason("")
 }}
 className={`w-full text-left p-3 rounded-xl border ${
 selectedProduct === product.id
-? "border-[#2CBC9C] bg-[#F1FBF8]"
+? "border-[#1e0ccf] bg-[#F5F6FF]"
 : "border-gray-200"
 }`}
 >
@@ -1721,7 +1715,7 @@ Action Type
 onClick={() => setReturnType("return")}
 className={`flex-1 border rounded-lg py-2 text-xs ${
 returnType === "return"
-? "border-[#2CBC9C] bg-[#F1FBF8] text-[#2CBC9C]"
+? "border-[#1e0ccf] bg-[#F5F6FF] text-[#1e0ccf]"
 : "border-gray-200"
 }`}
 >
@@ -1732,7 +1726,7 @@ Return
 onClick={() => setReturnType("exchange")}
 className={`flex-1 border rounded-lg py-2 text-xs ${
 returnType === "exchange"
-? "border-[#2CBC9C] bg-[#F1FBF8] text-[#2CBC9C]"
+? "border-[#1e0ccf] bg-[#F5F6FF] text-[#1e0ccf]"
 : "border-gray-200"
 }`}
 >
@@ -1759,10 +1753,11 @@ Reason
 <div className="flex flex-wrap gap-2">
 
 {[
-"Defective Product",
-"Wrong Item",
-"Damaged Packaging",
-"Not Satisfied",
+"Wrong size",
+"Item damaged",
+"Different from expectation",
+"Quality issue",
+"Ordered by mistake",
 "Other"
 ].map((reason) => (
 
@@ -1771,7 +1766,7 @@ key={reason}
 onClick={() => setReturnReason(reason)}
 className={`text-[11px] px-3 py-1 rounded-full border ${
 returnReason === reason
-? "bg-[#2CBC9C] text-white border-[#2CBC9C]"
+? "bg-[#1e0ccf] text-white border-[#1e0ccf]"
 : "border-gray-200"
 }`}
 >
@@ -1800,7 +1795,7 @@ Additional Details
 <textarea
 rows={3}
 placeholder="Tell us more about the issue"
-className="w-full mt-1 p-2 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#2CBC9C]"
+className="w-full mt-1 p-2 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#1e0ccf]"
 value={returnComment}
 onChange={(e) => setReturnComment(e.target.value)}
 />
@@ -1826,7 +1821,7 @@ Refund Method
 onClick={() => setRefundMethod("original")}
 className={`flex-1 border rounded-lg py-2 text-xs ${
 refundMethod === "original"
-? "border-[#2CBC9C] bg-[#F1FBF8]"
+? "border-[#1e0ccf] bg-[#F5F6FF]"
 : "border-gray-200"
 }`}
 >
@@ -1837,7 +1832,7 @@ Original Payment
 onClick={() => setRefundMethod("store")}
 className={`flex-1 border rounded-lg py-2 text-xs ${
 refundMethod === "store"
-? "border-[#2CBC9C] bg-[#F1FBF8]"
+? "border-[#1e0ccf] bg-[#F5F6FF]"
 : "border-gray-200"
 }`}
 >
@@ -1861,7 +1856,7 @@ const id = generateReturnId()
 setReturnRequestId(id)
 setReturnSubmitted(true)
 }}
-className="w-full bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl active:scale-[0.98]"
+className="w-full bg-[#1e0ccf] text-white h-10 text-xs font-semibold rounded-xl active:scale-[0.98]"
 >
 Submit Request
 </button>
@@ -1877,70 +1872,19 @@ Submit Request
 )}
 
 </div>
-
-          {/* Tata Neu App Section */}
-
-<div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
-
-  <div className="flex items-center mb-3">
-
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-      <Smartphone className="h-4 w-4 text-white" />
-    </div>
-
-    <div>
-      <div className="text-sm font-semibold text-gray-900">
-        Get More with Tata Neu
-      </div>
-
-      <div className="text-xs text-gray-500">
-        Earn rewards and manage all your Tata purchases
-      </div>
-    </div>
-
-  </div>
-
-
-  {/* Benefits Card */}
-
-  <div className="bg-[#F1FBF8] rounded-xl border border-[#D6F2EC] p-3 text-xs text-gray-700 space-y-2">
-
-    {/* Reward Highlight */}
-    <div className="bg-white border border-[#D6F2EC] rounded-lg px-3 py-2 text-center font-semibold text-[#2CBC9C]">
-      Earn <span className="text-gray-900">100 NeuCoins</span> on your first login
-    </div>
-
-    <div>• Earn NeuCoins on every purchase</div>
-    <div>• Track your orders and digital receipts</div>
-    <div>• Access exclusive Tata member offers</div>
-
-  </div>
-
-
-  {/* CTA */}
-
-  <button
-    onClick={openTataNeu}
-    className="w-full mt-3 bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl active:scale-[0.98]"
-  >
-    Install Tata Neu App
-  </button>
-
-</div>
           
-          {/* Profile / Rewards Activation Section */}
+         {/* Profile / Rewards Activation Section */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
 {profileUpdateSuccess ? (
 
+<div className="text-center py-4 bg-[#F5F6FF] rounded-xl border border-[#E2E6FF]">
 
-<div className="text-center py-4 bg-[#F1FBF8] rounded-xl border border-[#D6F2EC]">
-
-  <div className="w-12 h-12 bg-[#D6F2EC] rounded-full flex items-center justify-center mx-auto mb-3">
+  <div className="w-12 h-12 bg-[#E2E6FF] rounded-full flex items-center justify-center mx-auto mb-3">
 
     <svg
-      className="w-6 h-6 text-[#2CBC9C]"
+      className="w-6 h-6 text-[#1e0ccf]"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
@@ -1955,203 +1899,198 @@ Submit Request
   </div>
 
   <div className="text-xs text-gray-600">
-    Your details are now linked to this purchase for warranty, installation updates and rewards tracking.
+    Your profile is now linked to this purchase for rewards, offers and personalized recommendations.
   </div>
 
 </div>
 
-
 ) : (
-
 
 <>
 
-  {/* Header */}
-  <div className="flex items-center mb-3">
+{/* Header */}
 
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-      <User2 className="h-4 w-4 text-white" />
-    </div>
+<div className="flex items-center mb-3">
 
-    <div>
-      <div className="text-sm font-semibold text-gray-900">
-        Join Croma Loyalty
-      </div>
+<div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
+<User2 className="h-4 w-4 text-white" />
+</div>
 
-      <div className="text-xs text-gray-500">
-        Link your profile for warranty, updates and rewards.
-      </div>
-    </div>
+<div>
+<div className="text-sm font-semibold text-gray-900">
+Join Store Rewards
+</div>
 
-  </div>
+<div className="text-xs text-gray-500">
+Link your profile to earn rewards and receive exclusive offers.
+</div>
+</div>
 
-
-  {/* Form */}
-  <div className="space-y-3">
-
-    <div className="space-y-1">
-
-      <label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
-        Full Name
-      </label>
-
-      <input
-        type="text"
-        placeholder="Your Name"
-        value={profile.name}
-        onChange={(e) =>
-          setProfile((prev) => ({ ...prev, name: e.target.value }))
-        }
-        className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#2CBC9C]"
-      />
-
-    </div>
+</div>
 
 
-    <div className="space-y-1">
+{/* Form */}
 
-      <label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
-        Email Address
-      </label>
+<div className="space-y-3">
 
-      <input
-        type="email"
-        placeholder="name@example.com"
-        value={profile.email}
-        onChange={(e) =>
-          setProfile((prev) => ({ ...prev, email: e.target.value }))
-        }
-        className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#2CBC9C]"
-      />
+<div className="space-y-1">
 
-    </div>
+<label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
+Full Name
+</label>
 
+<input
+type="text"
+placeholder="Your Name"
+value={profile.name}
+onChange={(e)=>setProfile((prev)=>({...prev,name:e.target.value}))}
+className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#1e0ccf]"
+/>
 
-    <div className="space-y-1">
-
-      <label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
-        Mobile Number
-      </label>
-
-      <input
-        type="tel"
-        placeholder="+91 ..."
-        value={profile.mobile}
-        onChange={(e) =>
-          setProfile((prev) => ({ ...prev, mobile: e.target.value }))
-        }
-        className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#2CBC9C]"
-      />
-
-    </div>
-
-  </div>
+</div>
 
 
-  {/* CTA */}
-  <button
-    className="w-full mt-4 bg-[#2CBC9C] text-white h-11 text-xs font-semibold rounded-xl shadow-md transition active:scale-[0.98]"
-    onClick={handleProfileUpdate}
-  >
-    Save Details
-  </button>
+<div className="space-y-1">
+
+<label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
+Email Address
+</label>
+
+<input
+type="email"
+placeholder="name@example.com"
+value={profile.email}
+onChange={(e)=>setProfile((prev)=>({...prev,email:e.target.value}))}
+className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#1e0ccf]"
+/>
+
+</div>
 
 
-  {/* Helper Text */}
-  <div className="text-[10px] text-gray-400 text-center mt-2">
-    Your information helps us provide warranty support, installation updates and exclusive offers.
-  </div>
+<div className="space-y-1">
+
+<label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
+Mobile Number
+</label>
+
+<input
+type="tel"
+placeholder="+91 ..."
+value={profile.mobile}
+onChange={(e)=>setProfile((prev)=>({...prev,mobile:e.target.value}))}
+className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#1e0ccf]"
+/>
+
+</div>
+
+</div>
+
+
+{/* CTA */}
+
+<button
+className="w-full mt-4 bg-[#1e0ccf] text-white h-11 text-xs font-semibold rounded-xl shadow-md transition active:scale-[0.98]"
+onClick={handleProfileUpdate}
+>
+Save Details
+</button>
+
+
+<div className="text-[10px] text-gray-400 text-center mt-2">
+Your information helps us deliver personalized offers and faster support.
+</div>
 
 </>
-
 
 )}
 
 </div>
 
-          {/* Loyalty / NeuCoins Section */}
+          {/* Loyalty / Rewards Section */}
 
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 overflow-hidden">
 
-  <div className="p-4">
-
+<div className="p-4">
 
 {/* Header */}
+
 <div className="flex items-center mb-4">
 
-  <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-    <Sparkles className="h-4 w-4 text-white" />
-  </div>
+<div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
+<Sparkles className="h-4 w-4 text-white" />
+</div>
 
-  <div>
-    <div className="text-sm font-semibold text-gray-900">
-      NeuCoins Rewards
-    </div>
+<div>
+<div className="text-sm font-semibold text-gray-900">
+Reward Points
+</div>
 
-    <div className="text-xs text-gray-500">
-      Earn rewards across the Tata Neu ecosystem
-    </div>
-  </div>
+<div className="text-xs text-gray-500">
+Earn rewards on every purchase
+</div>
+</div>
 
 </div>
 
 
 {/* Overview Stats */}
+
 <div className="grid grid-cols-3 gap-3 mb-4">
 
-  <div className="bg-[#F1FBF8] rounded-xl p-3 text-center border border-[#D6F2EC]">
-    <div className="text-lg font-semibold text-[#2CBC9C]">+669</div>
-    <div className="text-xs text-gray-600">Coins Earned</div>
-  </div>
+<div className="bg-[#F5F6FF] rounded-xl p-3 text-center border border-[#E2E6FF]">
+<div className="text-lg font-semibold text-[#1e0ccf]">+120</div>
+<div className="text-xs text-gray-600">Points Earned</div>
+</div>
 
-  <div className="bg-[#F1FBF8] rounded-xl p-3 text-center border border-[#D6F2EC]">
-    <div className="text-lg font-semibold text-[#2CBC9C]">4,280</div>
-    <div className="text-xs text-gray-600">Total Coins</div>
-  </div>
+<div className="bg-[#F5F6FF] rounded-xl p-3 text-center border border-[#E2E6FF]">
+<div className="text-lg font-semibold text-[#1e0ccf]">2,840</div>
+<div className="text-xs text-gray-600">Total Points</div>
+</div>
 
-  <div className="bg-[#F1FBF8] rounded-xl p-3 text-center border border-[#D6F2EC]">
-    <div className="text-lg font-semibold text-[#2CBC9C]">Gold</div>
-    <div className="text-xs text-gray-600">Member Tier</div>
-  </div>
+<div className="bg-[#F5F6FF] rounded-xl p-3 text-center border border-[#E2E6FF]">
+<div className="text-lg font-semibold text-[#1e0ccf]">Gold</div>
+<div className="text-xs text-gray-600">Member Tier</div>
+</div>
 
 </div>
 
 
 {/* Tier Progress */}
-<div className="bg-[#F1FBF8] rounded-xl p-4 border border-[#D6F2EC]">
 
-  <div className="flex justify-between text-xs text-gray-600 mb-2">
-    <span>Progress to Platinum</span>
-    <span>4280 / 6000</span>
-  </div>
+<div className="bg-[#F5F6FF] rounded-xl p-4 border border-[#E2E6FF]">
 
-  <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+<div className="flex justify-between text-xs text-gray-600 mb-2">
+<span>Progress to Platinum</span>
+<span>2840 / 5000</span>
+</div>
 
-    <div
-      className="h-full bg-[#2CBC9C] rounded-full"
-      style={{ width: "71%" }}
-    />
+<div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
 
-  </div>
+<div
+className="h-full bg-[#1e0ccf] rounded-full"
+style={{ width: "57%" }}
+/>
 
-  <div className="text-xs text-gray-600 mt-2">
-    Only <span className="font-semibold text-[#2CBC9C]">1,720 coins</span> away from Platinum benefits.
-  </div>
+</div>
+
+<div className="text-xs text-gray-600 mt-2">
+Only <span className="font-semibold text-[#1e0ccf]">2,160 points</span> away from Platinum benefits.
+</div>
 
 </div>
 
 
 {/* Member Benefit */}
+
 <div className="mt-4 bg-gray-50 rounded-xl border border-gray-200 p-3 text-center">
 
-  <div className="text-xs text-gray-600">
-    Gold members enjoy priority service, exclusive offers and faster NeuCoins rewards.
-  </div>
+<div className="text-xs text-gray-600">
+Gold members enjoy exclusive discounts, early access to collections and priority support.
+</div>
 
 </div>
 
-
-  </div>
+</div>
 
 </div>
           
@@ -2162,7 +2101,7 @@ Submit Request
   {/* Header */}
   <div className="flex items-center mb-4">
 
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
+    <div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
       <Sparkles className="h-4 w-4 text-white" />
     </div>
 
@@ -2175,7 +2114,7 @@ Submit Request
 
   {/* Inline Toast */}
   {couponToast && (
-    <div className="mb-3 text-center text-xs text-green-700 bg-green-50 border border-green-100 rounded-lg py-2">
+    <div className="mb-3 text-center text-xs text-[#1e0ccf] bg-[#F5F6FF] border border-[#E2E6FF] rounded-lg py-2">
       ✓ Coupon <span className="font-semibold">{couponToast}</span> copied
     </div>
   )}
@@ -2186,8 +2125,8 @@ Submit Request
 
     {/* Offer 1 */}
     <button
-      onClick={() => copyCoupon("AC_WARRANTY")}
-      className="w-full bg-[#F1FBF8] border border-[#D6F2EC] rounded-xl p-3 text-left active:scale-[0.99]"
+      onClick={() => copyCoupon("STYLE10")}
+      className="w-full bg-[#F5F6FF] border border-[#E2E6FF] rounded-xl p-3 text-left active:scale-[0.99]"
     >
 
       <div className="flex items-center justify-between">
@@ -2195,20 +2134,20 @@ Submit Request
         <div>
 
           <h4 className="text-sm font-semibold text-gray-900">
-            Extend Your AC Warranty
+            10% Off Your Next Style Purchase
           </h4>
 
           <p className="text-[11px] text-gray-500">
-            Get up to <span className="font-semibold text-[#2CBC9C]">20% off</span> on extended protection plans
+            Refresh your wardrobe with our latest arrivals
           </p>
 
           <p className="text-[11px] mt-1 text-gray-600">
-            Use code <span className="font-semibold text-[#2CBC9C]">AC_WARRANTY</span>
+            Use code <span className="font-semibold text-[#1e0ccf]">STYLE10</span>
           </p>
 
         </div>
 
-        <ShieldCheck className="h-5 w-5 text-[#2CBC9C]" />
+        <Sparkles className="h-5 w-5 text-[#1e0ccf]" />
 
       </div>
 
@@ -2217,8 +2156,8 @@ Submit Request
 
     {/* Offer 2 */}
     <button
-      onClick={() => copyCoupon("AC_STABILIZER")}
-      className="w-full bg-[#F1FBF8] border border-[#D6F2EC] rounded-xl p-3 text-left active:scale-[0.99]"
+      onClick={() => copyCoupon("DENIM15")}
+      className="w-full bg-[#F5F6FF] border border-[#E2E6FF] rounded-xl p-3 text-left active:scale-[0.99]"
     >
 
       <div className="flex items-center justify-between">
@@ -2226,20 +2165,20 @@ Submit Request
         <div>
 
           <h4 className="text-sm font-semibold text-gray-900">
-            Special Price on AC Stabilizers
+            15% Off on Denim Collection
           </h4>
 
           <p className="text-[11px] text-gray-500">
-            Protect your AC with stabilizers starting at ₹1,499
+            Explore premium jeans and denim jackets
           </p>
 
           <p className="text-[11px] mt-1 text-gray-600">
-            Use code <span className="font-semibold text-[#2CBC9C]">AC_STABILIZER</span>
+            Use code <span className="font-semibold text-[#1e0ccf]">DENIM15</span>
           </p>
 
         </div>
 
-        <PlugZap className="h-5 w-5 text-[#2CBC9C]" />
+        <Tag className="h-5 w-5 text-[#1e0ccf]" />
 
       </div>
 
@@ -2248,8 +2187,8 @@ Submit Request
 
     {/* Offer 3 */}
     <button
-      onClick={() => copyCoupon("AIRPODS_CASE")}
-      className="w-full bg-[#F1FBF8] border border-[#D6F2EC] rounded-xl p-3 text-left active:scale-[0.99]"
+      onClick={() => copyCoupon("ACCESS20")}
+      className="w-full bg-[#F5F6FF] border border-[#E2E6FF] rounded-xl p-3 text-left active:scale-[0.99]"
     >
 
       <div className="flex items-center justify-between">
@@ -2257,20 +2196,20 @@ Submit Request
         <div>
 
           <h4 className="text-sm font-semibold text-gray-900">
-            Protect Your AirPods
+            20% Off Accessories
           </h4>
 
           <p className="text-[11px] text-gray-500">
-            Premium protective cases starting from ₹799
+            Bags, belts and essentials to complete your look
           </p>
 
           <p className="text-[11px] mt-1 text-gray-600">
-            Use code <span className="font-semibold text-[#2CBC9C]">AIRPODS_CASE</span>
+            Use code <span className="font-semibold text-[#1e0ccf]">ACCESS20</span>
           </p>
 
         </div>
 
-        <Headphones className="h-5 w-5 text-[#2CBC9C]" />
+        <ShoppingBagIcon className="h-5 w-5 text-[#1e0ccf]" />
 
       </div>
 
@@ -2281,12 +2220,12 @@ Submit Request
 
   {/* CTA */}
   <a
-    href="https://www.croma.com/"
+    href="https://www.rdep.io"
     target="_blank"
     rel="noopener noreferrer"
   >
 
-    <button className="w-full mt-4 bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]">
+    <button className="w-full mt-4 bg-[#1e0ccf] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]">
       Explore More Offers
     </button>
 
@@ -2294,184 +2233,8 @@ Submit Request
 
 
   <p className="mt-2 text-[9px] text-center text-gray-400">
-    Offers based on your recent purchase. Availability may vary by location.
+    Offers curated based on your recent purchase and preferences.
   </p>
-
-</div>
-
-        {/* Discover More Section */}
-
-<div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
-
-  {/* Header */}
-  <div className="flex items-center mb-4">
-
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-      <Sparkles className="h-4 w-4 text-white" />
-    </div>
-
-    <h3 className="text-base font-semibold text-gray-900">
-      Discover More
-    </h3>
-
-  </div>
-
-
-  {/* Category Grid */}
-  <div className="grid grid-cols-2 gap-3">
-
-    {/* Smartphones */}
-    <a
-      href="https://www.croma.com/phones-wearables/mobile-phones/c/10"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Smartphones.png"
-        alt="Smartphones"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Smartphones
-      </div>
-
-    </a>
-
-
-    {/* Televisions */}
-    <a
-      href="https://www.croma.com/televisions-accessories/c/997"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Television.png"
-        alt="Televisions"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Televisions
-      </div>
-
-    </a>
-
-
-    {/* Kitchen Appliances */}
-    <a
-      href="https://www.croma.com/kitchen-appliances/c/864"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Kitchen.png"
-        alt="Kitchen Appliances"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Kitchen Appliances
-      </div>
-
-    </a>
-
-
-    {/* Home Appliances */}
-    <a
-      href="https://www.croma.com/home-appliances/c/5"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Home.png"
-        alt="Home Appliances"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Home Appliances
-      </div>
-
-    </a>
-
-
-    {/* Computers & Tablets */}
-    <a
-      href="https://www.croma.com/computers-tablets/c/3"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Computer.png"
-        alt="Computers"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Computers & Tablets
-      </div>
-
-    </a>
-
-
-    {/* Audio & Video */}
-    <a
-      href="https://www.croma.com/audio-video/c/292"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Audio.png"
-        alt="Audio & Video"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Audio & Video
-      </div>
-
-    </a>
-
-  </div>
-
-
-  {/* CTA */}
-  <a
-    href="https://www.croma.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-
-    <button className="w-full mt-4 bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl active:scale-[0.98]">
-      Explore More on Croma
-    </button>
-
-  </a>
 
 </div>
           
@@ -2480,107 +2243,106 @@ Submit Request
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
-  <div className="grid grid-cols-3 gap-3">
+<div className="grid grid-cols-3 gap-3">
+
 {/* Purchase History */}
 <button
-  ref={historyButtonRef}
-  onClick={handleTransactionHistoryOpen}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+ref={historyButtonRef}
+onClick={handleTransactionHistoryOpen}
+className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
 >
-  <History className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    History
-  </span>
+<History className="h-5 w-5 text-[#1e0ccf] mb-1" />
+<span className="text-[11px] font-medium text-gray-700">
+History
+</span>
 </button>
 
 
 {/* Email Receipt */}
 <button
-  onClick={handleEmailReceipt}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+onClick={handleEmailReceipt}
+className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
 >
-  <Mail className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Email
-  </span>
+<Mail className="h-5 w-5 text-[#1e0ccf] mb-1" />
+<span className="text-[11px] font-medium text-gray-700">
+Email
+</span>
 </button>
 
 
 {/* Download Receipt */}
 <button
-  onClick={handleDownloadReceipt}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+onClick={handleDownloadReceipt}
+className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
 >
-  <Download className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Download
-  </span>
+<Download className="h-5 w-5 text-[#1e0ccf] mb-1" />
+<span className="text-[11px] font-medium text-gray-700">
+Download
+</span>
 </button>
-
-  </div>
 
 </div>
 
-          
-       {/* Need Help Section */}
+</div>
+          {/* Need Help Section */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
 {/* Header */}
 
-  <div className="flex items-center mb-3">
+<div className="flex items-center mb-3">
 
-<div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-  <Send className="h-4 w-4 text-white" />
+<div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
+<Send className="h-4 w-4 text-white" />
 </div>
 
 <h3 className="text-sm font-semibold text-gray-900">
-  Need Help?
+Need Help?
 </h3>
 
-  </div>
+</div>
 
-  <div className="grid grid-cols-3 gap-3">
+
+<div className="grid grid-cols-3 gap-3">
 
 {/* Chat Support */}
 <button
-  onClick={handleWhatsApp}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+onClick={handleWhatsApp}
+className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
 >
-  <MessageSquare className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Chat
-  </span>
+<MessageSquare className="h-5 w-5 text-[#1e0ccf] mb-1" />
+<span className="text-[11px] font-medium text-gray-700">
+Chat
+</span>
 </button>
 
 
 {/* Call Support */}
 <button
-  onClick={handleCall}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+onClick={handleCall}
+className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
 >
-  <Phone className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Call
-  </span>
+<Phone className="h-5 w-5 text-[#1e0ccf] mb-1" />
+<span className="text-[11px] font-medium text-gray-700">
+Call
+</span>
 </button>
 
 
 {/* Service Request */}
 <button
-  onClick={handleEmail}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+onClick={handleEmail}
+className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
 >
-  <Wrench className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Service
-  </span>
+<Wrench className="h-5 w-5 text-[#1e0ccf] mb-1" />
+<span className="text-[11px] font-medium text-gray-700">
+Support
+</span>
 </button>
-
-  </div>
 
 </div>
 
+</div>
 
       {/* Social Media & Store Details */}
 
@@ -2588,168 +2350,177 @@ Submit Request
 
 {/* Header */}
 
-  <div className="flex items-center mb-4">
+<div className="flex items-center mb-4">
 
-<div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-  <Share2 className="h-4 w-4 text-white" />
+<div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
+<Share2 className="h-4 w-4 text-white" />
 </div>
 
 <h3 className="text-sm font-semibold text-gray-900">
-  Stay Connected
+Stay Connected
 </h3>
 
-  </div>
+</div>
+
 
 {/* Social Links */}
 
-  <div className="flex justify-center space-x-6 mb-4">
+<div className="flex justify-center space-x-6 mb-4">
 
 {/* Instagram */}
 <button
-  onClick={() => handleSocialLink("https://www.instagram.com/croma.retail/")}
-  className="flex flex-col items-center"
+onClick={() => handleSocialLink("https://www.instagram.com")}
+className="flex flex-col items-center"
 >
-  <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-500 flex items-center justify-center mb-1">
-    <Instagram className="h-4 w-4 text-white" />
-  </div>
+<div className="w-9 h-9 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-500 flex items-center justify-center mb-1">
+<Instagram className="h-4 w-4 text-white" />
+</div>
 
-  <span className="text-[11px] font-medium text-gray-700">
-    Instagram
-  </span>
+<span className="text-[11px] font-medium text-gray-700">
+Instagram
+</span>
 </button>
 
 
 {/* Facebook */}
 <button
-  onClick={() => handleSocialLink("https://www.facebook.com/CromaRetail/")}
-  className="flex flex-col items-center"
+onClick={() => handleSocialLink("https://www.facebook.com")}
+className="flex flex-col items-center"
 >
-  <div className="w-9 h-9 rounded-full bg-[#1877F2] flex items-center justify-center mb-1">
-    <Facebook className="h-4 w-4 text-white" />
-  </div>
+<div className="w-9 h-9 rounded-full bg-[#1877F2] flex items-center justify-center mb-1">
+<Facebook className="h-4 w-4 text-white" />
+</div>
 
-  <span className="text-[11px] font-medium text-gray-700">
-    Facebook
-  </span>
+<span className="text-[11px] font-medium text-gray-700">
+Facebook
+</span>
 </button>
 
 
 {/* Website */}
 <button
-  onClick={() => handleSocialLink("https://www.croma.com")}
-  className="flex flex-col items-center"
+onClick={() => handleSocialLink("https://www.rdep.io")}
+className="flex flex-col items-center"
 >
-  <div className="w-9 h-9 rounded-full bg-[#2CBC9C] flex items-center justify-center mb-1">
-    <ExternalLink className="h-4 w-4 text-white" />
-  </div>
+<div className="w-9 h-9 rounded-full bg-[#1e0ccf] flex items-center justify-center mb-1">
+<ExternalLink className="h-4 w-4 text-white" />
+</div>
 
-  <span className="text-[11px] font-medium text-gray-700">
-    Website
-  </span>
+<span className="text-[11px] font-medium text-gray-700">
+Website
+</span>
 </button>
 
-  </div>
+</div>
+
 
 {/* Store Location */}
 
-  <div className="text-xs text-gray-600 text-center mb-3 bg-gray-50 p-3 rounded-xl">
+<div className="text-xs text-gray-600 text-center mb-3 bg-gray-50 p-3 rounded-xl">
 
 <button
-  onClick={() => setShowStoreLocation(!showStoreLocation)}
-  className="w-full flex items-center justify-center mb-2 hover:text-[#2CBC9C] transition-colors"
+onClick={() => setShowStoreLocation(!showStoreLocation)}
+className="w-full flex items-center justify-center mb-2 hover:text-[#1e0ccf] transition-colors"
 >
-  <MapPin className="h-3 w-3 mr-1 text-[#2CBC9C]" />
 
-  <span className="font-semibold text-[#2CBC9C]">
-    Croma {currentReceipt.branch}, Bengaluru {showStoreLocation ? "▲" : "▼"}
-  </span>
+<MapPin className="h-3 w-3 mr-1 text-[#1e0ccf]" />
+
+<span className="font-semibold text-[#1e0ccf]">
+Store Location, Bengaluru {showStoreLocation ? "▲" : "▼"}
+</span>
 
 </button>
 
 {showStoreLocation && (
 
-  <div className="space-y-0.5">
+<div className="space-y-0.5">
 
-    <p className="font-semibold text-gray-900">
-      Croma Retail Store
-    </p>
+<p className="font-semibold text-gray-900">
+Fashion Retail Store
+</p>
 
-    <p>{currentReceipt.branch}</p>
+<p>42, Brigade Road</p>
 
-    <p>Bengaluru, Karnataka</p>
+<p>Ashok Nagar</p>
 
-    <p>India</p>
+<p>Bengaluru, Karnataka 560001</p>
 
-    <p className="mt-2 text-[10px]">
-      GSTIN: 29ABCDE1234F1Z5
-    </p>
+<p>India</p>
 
-    <p className="mt-1 text-[#2CBC9C] font-semibold">
-      Store Associate: {currentReceipt.associate}
-    </p>
+<p className="mt-2 text-[10px]">
+GSTIN: 29ABCDE1234F1Z5
+</p>
 
-  </div>
+<p className="mt-1 text-[#1e0ccf] font-semibold">
+Store Associate: {currentReceipt.associate}
+</p>
+
+</div>
 
 )}
 
-  </div>
+</div>
+
 
 {/* Terms */}
-<button
-className="w-full text-xs text-gray-500 hover:text-[#2CBC9C] h-6 font-medium"
-onClick={() => setShowTerms(!showTerms)}
 
+<button
+className="w-full text-xs text-gray-500 hover:text-[#1e0ccf] h-6 font-medium"
+onClick={() => setShowTerms(!showTerms)}
 >
 
 Terms & Conditions {showTerms ? "▲" : "▼"}
 
-  </button>
+</button>
+
 
 {showTerms && (
 
 <div className="text-[11px] text-gray-500 mt-2 space-y-1 px-2 font-medium">
 
-  <p>• Products sold are subject to manufacturer warranty terms.</p>
+<p>• Products can be returned or exchanged according to store policy.</p>
 
-  <p>• Installation and service timelines may vary by location.</p>
+<p>• Prices shown include applicable GST.</p>
 
-  <p>• Prices shown include applicable GST.</p>
+<p>• Offers and promotions may vary by location.</p>
 
-  <p>• For service support visit www.croma.com/support.</p>
+<p>• For support and assistance visit www.rdep.io.</p>
 
 </div>
 
 )}
 
+
 {/* Powered by RDEP */}
 
-  <div className="text-center mt-3 pt-3 border-t border-gray-100">
+<div className="text-center mt-3 pt-3 border-t border-gray-100">
+
 <div className="flex items-center justify-center space-x-1">
 
-  <span className="text-xs text-gray-400 font-medium">
-    Powered by
-  </span>
+<span className="text-xs text-gray-400 font-medium">
+Powered by
+</span>
 
-  <a
-    href="https://www.rdep.io"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center"
-  >
+<a
+href="https://www.rdep.io"
+target="_blank"
+rel="noopener noreferrer"
+className="inline-flex items-center"
+>
 
-    <Image
-      src="/images/design-mode/RDEP cropped.png"
-      alt="RDEP"
-      width={60}
-      height={16}
-      className="object-contain"
-    />
+<Image
+src="/images/design-mode/RDEP cropped.png"
+alt="RDEP"
+width={60}
+height={16}
+className="object-contain"
+/>
 
-  </a>
+</a>
 
 </div>
 
-  </div>
+</div>
 
 </div>
 
@@ -2760,94 +2531,99 @@ Terms & Conditions {showTerms ? "▲" : "▼"}
         {/* Transaction History Modal */}
 {showTransactionHistory && (
 
-  <div className="fixed inset-0 z-[9999] flex items-center justify-center">
+<div className="fixed inset-0 z-[9999] flex items-center justify-center">
 
 {/* Backdrop */}
 <div
-  className="absolute inset-0 bg-black/40 backdrop-blur-sm"
-  onClick={() => setShowTransactionHistory(false)}
+className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+onClick={() => setShowTransactionHistory(false)}
 />
+
 
 {/* Modal */}
 <div className="relative bg-white rounded-2xl w-full max-w-sm mx-4 shadow-2xl border border-gray-200 font-poppins overflow-hidden">
 
-  {/* Header */}
-  <div className="flex justify-between items-center p-4 border-b border-gray-100">
+{/* Header */}
+<div className="flex justify-between items-center p-4 border-b border-gray-100">
 
-    <div className="flex items-center">
+<div className="flex items-center">
 
-      <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-        <History className="h-4 w-4 text-white" />
-      </div>
+<div className="bg-[#1e0ccf] p-2 rounded-lg mr-3">
+<History className="h-4 w-4 text-white" />
+</div>
 
-      <h3 className="text-sm font-semibold text-gray-900">
-        Purchase History
-      </h3>
-
-    </div>
-
-    <button
-      className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100"
-      onClick={() => setShowTransactionHistory(false)}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        className="h-4 w-4 text-gray-500"
-      >
-        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" strokeWidth="2"/>
-      </svg>
-    </button>
-
-  </div>
-
-
-  {/* Transaction List */}
-  <div className="max-h-80 overflow-y-auto p-4 space-y-3">
-
-    {transactionHistory.map((transaction) => (
-
-      <button
-        key={transaction.id}
-        onClick={() => {
-          setCurrentReceiptId(transaction.id)
-          setShowTransactionHistory(false)
-          window.scrollTo({ top: 0, behavior: "smooth" })
-        }}
-        className="w-full flex items-center p-3 bg-gray-50 border border-gray-200 rounded-xl hover:border-[#2CBC9C] transition"
-      >
-
-        <div className="bg-white border border-gray-200 p-2 rounded-lg mr-3">
-          <FileText className="h-4 w-4 text-[#2CBC9C]" />
-        </div>
-
-        <div className="flex-grow text-left">
-
-          <div className="text-sm font-semibold text-gray-900">
-            Croma
-          </div>
-
-          <div className="text-[11px] text-gray-500">
-            {transaction.date}
-          </div>
-
-        </div>
-
-        <div className="text-sm font-semibold text-[#2CBC9C]">
-          ₹{transaction.amount.toFixed(2)}
-        </div>
-
-      </button>
-
-    ))}
-
-  </div>
+<h3 className="text-sm font-semibold text-gray-900">
+Purchase History
+</h3>
 
 </div>
 
-  </div>
-)}
+<button
+className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100"
+onClick={() => setShowTransactionHistory(false)}
+>
 
+<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 24 24"
+className="h-4 w-4 text-gray-500"
+>
+
+<path d="M18 6L6 18M6 6l12 12" stroke="currentColor" strokeWidth="2"/>
+
+</svg>
+
+</button>
+
+</div>
+
+
+{/* Transaction List */}
+<div className="max-h-80 overflow-y-auto p-4 space-y-3">
+
+{transactionHistory.map((transaction) => (
+
+<button
+key={transaction.id}
+onClick={() => {
+setCurrentReceiptId(transaction.id)
+setShowTransactionHistory(false)
+window.scrollTo({ top: 0, behavior: "smooth" })
+}}
+className="w-full flex items-center p-3 bg-gray-50 border border-gray-200 rounded-xl hover:border-[#1e0ccf] transition"
+>
+
+<div className="bg-white border border-gray-200 p-2 rounded-lg mr-3">
+<FileText className="h-4 w-4 text-[#1e0ccf]" />
+</div>
+
+<div className="flex-grow text-left">
+
+<div className="text-sm font-semibold text-gray-900">
+Store Purchase
+</div>
+
+<div className="text-[11px] text-gray-500">
+{transaction.date}
+</div>
+
+</div>
+
+<div className="text-sm font-semibold text-[#1e0ccf]">
+₹{transaction.amount.toFixed(2)}
+</div>
+
+</button>
+
+))}
+
+</div>
+
+</div>
+
+</div>
+
+)}
         {/* Refer & Earn Modal */}
         {showReferModal && (
           <div
