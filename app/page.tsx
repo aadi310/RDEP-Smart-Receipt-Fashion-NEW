@@ -174,7 +174,7 @@ export default function Home() {
   return "CR" + Math.floor(100000 + Math.random() * 900000)
 }
 
-  const customerName = "Madhav"
+  const customerName = "Aaditya"
 
   // Carousel refs and APIs
   const [promoApi, setPromoApi] = useState<CarouselApi>()
@@ -245,64 +245,79 @@ const receipts = {
 
   current: {
     id: "FSBLR4821MK19",
-    date: "05-03-2026",
+    date: "08-09-2026",
     time: "19:22:18",
     associate: "Priya Singh",
-    branch: "Brigade Road",
+    branch: "RDEP Koramangala",
 
     items: [
       {
         id: 0,
-        name: "Slim Fit Cotton Shirt",
-        variant: "Size M • Navy Blue",
-        description: "100% cotton casual shirt",
-        price: 1899,
+        name: "Soft Woven Scarf",
+        variant: "Free Size • Beige",
+        description: "Lightweight woven scarf for everyday wear",
+        price: 590,
         quantity: 1,
-        category: "Men's Wear",
-        baseAmount: 1809,
-        tax: 90,
-        itemCode: "SHRTSLIMNVY",
-        styleCode: "FS-SH-2219",
-        size: "M",
-        color: "Navy Blue"
+        category: "Accessories",
+        baseAmount: 562,
+        tax: 28,
+        itemCode: "SCRFWVNBEG",
+        styleCode: "FS-AC-4410",
+        color: "Beige"
       },
 
       {
         id: 1,
-        name: "Mid Rise Skinny Jeans",
-        variant: "Size 32 • Dark Indigo",
-        description: "Stretch denim with tapered fit",
-        price: 2999,
+        name: "Men's Slim Fit Jeans",
+        variant: "Size 32 • Dark Blue",
+        description: "Stretch denim slim fit jeans",
+        price: 1590,
         quantity: 1,
         category: "Men's Wear",
-        baseAmount: 2856,
-        tax: 143,
-        itemCode: "JEANS32IND",
-        styleCode: "FS-JE-3312",
+        baseAmount: 1514,
+        tax: 76,
+        itemCode: "JEANSSLMDB32",
+        styleCode: "FS-JE-3345",
         size: "32",
-        color: "Dark Indigo"
+        color: "Dark Blue"
       },
 
       {
         id: 2,
-        name: "Classic White Sneakers",
-        variant: "Size 9",
-        description: "Lightweight everyday sneakers",
-        price: 3499,
+        name: "Women's Linen Shirt Dress",
+        variant: "Size M • White",
+        description: "Breathable linen shirt dress",
+        price: 1690,
         quantity: 1,
-        category: "Footwear",
-        baseAmount: 3332,
-        tax: 167,
-        itemCode: "SNKRWHT09",
-        styleCode: "FS-FW-5510",
-        size: "9",
+        category: "Women's Wear",
+        baseAmount: 1610,
+        tax: 80,
+        itemCode: "DRSLINSHRTWHT",
+        styleCode: "FS-WD-7712",
+        size: "M",
         color: "White"
+      },
+
+      {
+        id: 3,
+        name: "Women's Floral Midi Dress",
+        variant: "Size M • Multicolor",
+        description: "Floral printed midi dress",
+        price: 1790,
+        quantity: 1,
+        category: "Women's Wear",
+        baseAmount: 1705,
+        tax: 85,
+        itemCode: "DRSFLRLMIDI",
+        styleCode: "FS-WD-8890",
+        size: "M",
+        color: "Multicolor"
       }
     ],
 
-    subtotal: 7997,
-    tax: 400,
-    total: 8397
+    subtotal: 5391,
+    tax: 269,
+    total: 5660
   },
 
 
@@ -406,9 +421,9 @@ const totalSlides = 2
 const transactionHistory = [
   {
     id: "current",
-    date: "05-03-2026",
-    branch: "Fashion Store",
-    amount: currentReceiptId === "current" ? receipts.current.subtotal + receipts.current.tax : 8397.00,
+    date: "08-09-2026",
+    branch: "RDEP Koramangala",
+    amount: currentReceiptId === "current" ? receipts.current.subtotal + receipts.current.tax : 5660.00,
   },
   { id: "hist1", date: "20-01-2026", branch: "Fashion Store", amount: 4598.00 },
   { id: "hist2", date: "15-12-2025", branch: "Fashion Store", amount: 6298.00 },
@@ -697,19 +712,18 @@ padding:0;
 <div class="receipt-header">
 
 <div class="company-info">
-<h1>Fashion Retail Store</h1>
+<h1>RDEP Koramangala</h1>
 <p>
 <strong>Store Location</strong><br>
-42, Brigade Road<br>
-Ashok Nagar<br>
-Bengaluru, Karnataka 560001<br>
+Koramangala<br>
+Bengaluru, Karnataka 560034<br>
 India
 </p>
 </div>
 
 <div class="bill-info">
 <div><strong>Receipt ID:</strong> <span class="bill-id">FSBLR4821MK19</span></div>
-<div><strong>Date:</strong> 05-03-2026 19:22</div>
+<div><strong>Date:</strong> 08-09-2026 19:22</div>
 <div><strong>Store Associate:</strong> Priya Singh</div>
 </div>
 
@@ -736,50 +750,65 @@ India
 
 <tr>
 <td>
-<div class="item-name">Slim Fit Cotton Shirt</div>
-<div class="item-desc">100% cotton casual shirt</div>
+<div class="item-name">Soft Woven Scarf</div>
+<div class="item-desc">Lightweight woven scarf for everyday wear</div>
 <div class="item-specs">
-Style Code: FS-SH-2219<br>
-Color: Navy Blue<br>
-Size: M
+Style Code: FS-AC-4410<br>
+Color: Beige
 </div>
 </td>
 <td>1</td>
-<td>Navy Blue / M</td>
-<td>₹1,899.00</td>
-<td><strong>₹1,899.00</strong></td>
+<td>Beige</td>
+<td>₹590.00</td>
+<td><strong>₹590.00</strong></td>
 </tr>
 
 <tr>
 <td>
-<div class="item-name">Mid Rise Skinny Jeans</div>
-<div class="item-desc">Stretch denim with tapered fit</div>
+<div class="item-name">Men's Slim Fit Jeans</div>
+<div class="item-desc">Stretch denim slim fit jeans</div>
 <div class="item-specs">
-Style Code: FS-JE-3312<br>
-Color: Dark Indigo<br>
+Style Code: FS-JE-3345<br>
+Color: Dark Blue<br>
 Size: 32
 </div>
 </td>
 <td>1</td>
-<td>Indigo / 32</td>
-<td>₹2,999.00</td>
-<td><strong>₹2,999.00</strong></td>
+<td>Dark Blue / 32</td>
+<td>₹1,590.00</td>
+<td><strong>₹1,590.00</strong></td>
 </tr>
 
 <tr>
 <td>
-<div class="item-name">Classic White Sneakers</div>
-<div class="item-desc">Lightweight everyday sneakers</div>
+<div class="item-name">Women's Linen Shirt Dress</div>
+<div class="item-desc">Breathable linen shirt dress</div>
 <div class="item-specs">
-Style Code: FS-FW-5510<br>
+Style Code: FS-WD-7712<br>
 Color: White<br>
-Size: 9
+Size: M
 </div>
 </td>
 <td>1</td>
-<td>White / 9</td>
-<td>₹3,499.00</td>
-<td><strong>₹3,499.00</strong></td>
+<td>White / M</td>
+<td>₹1,690.00</td>
+<td><strong>₹1,690.00</strong></td>
+</tr>
+
+<tr>
+<td>
+<div class="item-name">Women's Floral Midi Dress</div>
+<div class="item-desc">Floral printed midi dress</div>
+<div class="item-specs">
+Style Code: FS-WD-8890<br>
+Color: Multicolor<br>
+Size: M
+</div>
+</td>
+<td>1</td>
+<td>Multicolor / M</td>
+<td>₹1,790.00</td>
+<td><strong>₹1,790.00</strong></td>
 </tr>
 
 </tbody>
@@ -788,13 +817,13 @@ Size: 9
 <div class="totals-section">
 
 <div class="items-count">
-Items Purchased: 3
+Items Purchased: 4
 </div>
 
 <div class="totals-table">
-<div>Subtotal: <strong>₹8,397</strong></div>
-<div>GST: <strong>₹400</strong></div>
-<div class="net-total">Total Paid: <strong>₹8,797</strong></div>
+<div>Subtotal: <strong>₹5,391</strong></div>
+<div>GST: <strong>₹269</strong></div>
+<div class="net-total">Total Paid: <strong>₹5,660</strong></div>
 </div>
 
 </div>
@@ -1306,7 +1335,7 @@ Card Payment
     </p>
 
     <p className="text-sm font-semibold text-gray-900">
-      09 Mar 2026
+      12 Sep 2026
     </p>
 
   </div>
@@ -2433,14 +2462,12 @@ Store Location, Bengaluru {showStoreLocation ? "▲" : "▼"}
 <div className="space-y-0.5">
 
 <p className="font-semibold text-gray-900">
-Fashion Retail Store
+RDEP Koramangala
 </p>
 
-<p>42, Brigade Road</p>
+<p>Koramangala</p>
 
-<p>Ashok Nagar</p>
-
-<p>Bengaluru, Karnataka 560001</p>
+<p>Bengaluru, Karnataka 560034</p>
 
 <p>India</p>
 
